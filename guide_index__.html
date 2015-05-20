@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+    <meta charset="utf-8">
+    <title>IA (Imformation Architecture)</title>
+    <link rel="stylesheet" href="css/guide.css"/>
+    <link type="text/css" rel="stylesheet" href="css/shCore.css"/>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="./js/guide.js"></script>
+    <script src="./js/shCore.js"></script>
+    <script src="./js/shBrushJScript.js"></script>
+    <script src="./js/shBrushCss.js"></script>
+    <script src="./js/shBrushXml.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/shCore.css"/>
+    <script>
+        SyntaxHighlighter.defaults['toolbar'] = false;
+        SyntaxHighlighter.all();
+    </script>
+</head>
+<body>
+<a href="#wrap" class="skip">≫ &nbsp; 메뉴 건너 뛰기</a>
+<header>
+    <div id="header">
+        <hgroup>
+            <h1><span class="gd-bar"></span>Layout Structure</h1>
+            <h2>Publishing</h2>
+        </hgroup>
+    </div>
+</header>
+
+<div id="wrap">
+    <section>
+        <h3>Guide Style</h3>
+        <p class="listBtnArea"> <a href="./IA.html" class="on">Impormation Architeture</a></p>
+    </section>
+    <hr />
+
+    <section class="guide-wrap">
+        <article>
+            <div class="guide-tap">
+                <ul>
+                    <li><a href="layout.html" class="on"><span>Layout Structure</span></a></li>
+                    <li><a href="title_font_type.html" class=""><span>Title & Font Type</span></a></li>
+                    <li><a href="tab_type.html" class=""><span>Tab Type</span></a></li>
+                    <li><a href="button_type.html" class=""><span>Button Type</span></a></li>
+                    <li><a href="list_type.html" class=""><span>List type</span></a></li>
+                    <li><a href="table_type.html" class=""><span>Table Type</span></a></li>
+                    <li><a href="#" class=""><span>View Type</span></a></li>
+                    <li><a href="#" class=""><span>Form Type</span></a></li>
+                    <li><a href="#" class=""><span>Pop-up Type</span></a></li>
+                    <li><a href="#" class=""><span>Scroll Type</span></a></li>
+                    <li><a href="#" class=""><span>IR Type</span></a></li>
+                </ul>
+            </div>
+            <div class="inc-conts">
+                <!-- include style guide contents -->
+
+                <div class="guide-type">
+                    <h2 class="guide_tit"><span class="gd-bar"></span>Button type align</h2>
+
+                    <div class="description">
+                        <ul>
+                            <li>버튼이 중앙 정렬 하나만 있을 경우를 대비하여 버튼 랩퍼에 min-height 값을 설정한다.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, explicabo.</li>
+                        </ul>
+                    </div>
+                    <div class="mb20">
+                        <p class="sub-tit"><span>@ Preview</span></p>
+
+                        <div class="btn_wrap clearfix">
+                            <div class="btn_l">
+                                <a class="btl btn_sty02" href="#none"><span>Submit</span></a>
+                            </div>
+                            <div class="btn_c">
+                                <a class="btl btn_sty02" href="#none"><span>Apply</span></a>
+                                <a class="btl btn_sty03" href="#none"><span>List</span></a>
+                            </div>
+                            <div class="btn_r">
+                                <a class="btl btn_sty03" href="#none"><span>Account Close</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="sub-tit"><span>@ HTML CODE</span></p>
+                    <div class="code">
+        <pre class="brush: html">
+            <div class="btn_wrap clearfix">
+                <div class="btn_l">
+                    <a class="btl btn_sty02" href="#none"><span>Submit</span></a>
+                </div>
+                <div class="btn_c">
+                    <a class="btl btn_sty02" href="#none"><span>Apply</span></a>
+                    <a class="btl btn_sty03" href="#none"><span>List</span></a>
+                </div>
+                <div class="btn_r">
+                    <a class="btl btn_sty03" href="#none"><span>Account Close</span></a>
+                </div>
+            </div>
+        </pre>
+                    </div>
+                </div>
+
+                <h2 class="guide_tit"><span class="gd-bar"></span>Btn type</h2>
+                <table class="">
+                    <colgroup>
+                        <col style="width:20%">
+                        <col style="width:80%">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th>TAG별 버튼</th>
+                        <th>버튼 스타일</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, praesentium.</td>
+                        <td>adfaf</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, praesentium.</td>
+                        <td>adfaf</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, praesentium.</td>
+                        <td>adfaf</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, praesentium.</td>
+                        <td>adfaf</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </article>
+    </section>
+    <hr />
+    <footer>
+        <div class="author">
+        </div>
+    </footer>
+</div>
+<style>
+
+</style>
+<!--<script>
+    $.fn.prettyPrint = function () {
+        return this.each(function () {
+            var a = /</g;
+            var b = />/g;
+            $(this).html($(this).html().replace(a, '&lt;').replace(b, '&gt;'));
+        })
+    };
+    $('.prettyprint').prettyPrint();
+</script>-->
+
+</body>
+</html>

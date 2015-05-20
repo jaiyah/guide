@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <!--<link type="text/css" rel="stylesheet" href="css/shCore.css"/>-->
+    <script src="./js/shCore.js"></script>
+    <script src="./js/shAutoloader.js"></script>
+    <script>
+
+        /*function path() {
+            var args = arguments, result = [];
+
+            for (var i=0; i<args.length; i++)
+                result.push(args[i].replace("@", "./js/"));
+
+            return result
+        }*/
+
+        /*SyntaxHighlighter.autoloader.apply(null, path(
+//                    "sh bash shell						@shBrushBash.js",
+                "css								@shBrushCss.js",
+                "js jscript javascript				@shBrushJScript.js",
+//                    "ps powershell powershel1 shell		@shBrushPowerShell.js", // 오타 호환성 ㅠㅠ
+                "xml xhtml xslt html				@shBrushXml.js"
+        ));*/
+        SyntaxHighlighter.autoloader(
+                "css								./js/shBrushCss.js",
+                "js jscript javascript				./js/shBrushJScript.js",
+                "xml xhtml xslt html				./js/shBrushXml.js"
+        );
+        SyntaxHighlighter.config.space = ' ';
+        //SyntaxHighlighter.defaults['gutter'] = false;
+        SyntaxHighlighter.all();
+
+    </script>
+</head>
+<body onload="">
+<pre class="brush: html">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quos!</p>
+</pre>
+<script>
+
+</script>
+</body>
+</html>

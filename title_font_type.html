@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <!--<link type="text/css" rel="stylesheet" href="css/shCore.css"/>-->
+    <script src="./js/shCore.js"></script>
+    <script src="./js/shAutoloader.js"></script>
+    <script>
+
+        function path() {
+         var args = arguments, result = [];
+
+         for (var i=0; i<args.length; i++)
+         result.push(args[i].replace("@", "./js/"));
+
+         return result
+         }
+
+        SyntaxHighlighter.autoloader.apply(null, path(
+         //                    "sh bash shell						@shBrushBash.js",
+         "css								@shBrushCss.js",
+         "js jscript javascript				@shBrushJScript.js",
+         //                    "ps powershell powershel1 shell		@shBrushPowerShell.js", // 오타 호환성 ㅠㅠ
+         "xml xhtml xslt html				@shBrushXml.js"
+         ));
+
+
+    </script>
+</head>
+<body onload="">
+<pre class="brush: html">
+    <div>afadfaf afdaf</div>
+</pre>
+<script>
+
+</script>
+</body>
+</html>
